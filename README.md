@@ -6,7 +6,7 @@ Here, we report the discovery of a novel tool for calculating kinetic constants 
 
 ## Implementation
 
-lightMM is a stand-alone program that is implemented in Python using NumPy. The program is supported on Linux and MS Windows.
+lightMM is a stand-alone program that is implemented in Python using [NumPy](http://www.numpy.org/). The program is supported on Linux and MS Windows.
 
 ## Usage
 
@@ -27,4 +27,4 @@ REMARK. If no result is provided, please check the following:
 
 ## License
 
-The program is distributed under CC BY-NC-ND 4.0 license.
+The program is distributed under [CC BY-NC-ND 4.0 license](https://creativecommons.org/licenses/by-nc-nd/4.0/).
