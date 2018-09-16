@@ -4,18 +4,18 @@ In biochemistry, the Michaelis-Menten model is the one of the best-known and use
 
 Here, we report the discovery of a novel tool for calculating kinetic constants in the Michaelis-Menten equation from two substrate concentrations called lightMM. This extremely useful framework gives wider possibilities in determination of kinetic parameters by reducing cost and time, primarily by lowering amount of needed enzymes that are very often difficult (requiring) to isolate, store and use in experiments.
 
-# Implementation
+## Implementation
 
 lightMM is a stand-alone program that is implemented in Python using NumPy. The program is supported on Linux and MS Windows.
 
-# Usage
+## Usage
 
-1. A user needs to prepare data in .csv file where the first row contains data at a larger level of the substrate concetration and the second row contains data at a lower level of the substate concentration.
-2. A user needs to prepare a configuration file (.json) that contains all necessary information about the data and method (please see examples in examples folder).
+1. A user needs to prepare data in ```.csv``` file where the first row contains data at a larger level of the substrate concetration and the second row contains data at a lower level of the substate concentration.
+2. A user needs to prepare a configuration file (```.json```) that contains all necessary information about the data and method (please see examples in examples folder).
 3. Put your data and configuration file together with the program file(s) (Linux: lighmm.so and run.py, MS Windows: lightmm.exe) in the save directory.
 4. Run the program:
-- Linux: in terminal type python run.py
-- MS Windows: in cmd type lightmm.exe
+- Linux: in terminal type ```python run.py```
+- MS Windows: in cmd type ```lightmm.exe```
 5. Provide name of your configuration file and wait for results. 
 
 REMARK. If no result is provided, please check the following:
@@ -25,6 +25,6 @@ REMARK. If no result is provided, please check the following:
 - time step (in seconds) of the experiment and how long the experiment lasted (in minutes);
 - initial values of the substrate and enzyme concentrations. 
 
-# License
+## License
 
 The program is distributed under CC BY-NC-ND 4.0 license.
