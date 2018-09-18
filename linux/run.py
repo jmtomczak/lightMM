@@ -1,0 +1,3 @@
+import lightmm
+
+lightmm.main()
