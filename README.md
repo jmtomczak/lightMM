@@ -10,9 +10,9 @@ lightMM is a stand-alone program that is implemented in Python using [NumPy](htt
 
 ## Usage
 
-1. A user needs to prepare data in ```.csv``` file where the first row contains data at a larger level of the substrate concetration and the second row contains data at a lower level of the substate concentration.
-2. A user needs to prepare a configuration file (```.json```) that contains all necessary information about the data and method (please see examples in examples folder).
-3. Put your data and configuration file together with the program file(s) (Linux: lighmm.so and run.py, MS Windows: lightmm.exe) in the save directory.
+1. Prepare data in ```.csv``` file where the first row contains data at a larger level of the substrate concetration and the second row contains data at a lower level of the substate concentration.
+2. Prepare a configuration file (```.json```) that contains all necessary information about the data and the method (please see examples in examples folder).
+3. Put your data and configuration file together with the program file(s) (Linux: lighmm.so and run.py, MS Windows: lightmm.exe) in the same directory.
 4. Run the program:
 - Linux: in terminal type ```python run.py```
 - MS Windows: in cmd type ```lightmm.exe```
