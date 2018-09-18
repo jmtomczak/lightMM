@@ -1,7 +1,7 @@
 {
   "file_name": {
       "_comment": "Please provide path to the file (.xlsx) where the data is stored (WARNING: data should be contained in the first row and the sheet should be named 'data')",
-      "file": "erapARG.csv"
+      "file": "hERAP2.csv"
     },
 
   "experiment_details":{
